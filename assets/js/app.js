@@ -10,7 +10,7 @@ $(document).ready(function() {
     markMenu();
     $('#container').html(`<section id="inicio">
       <div class="foto">
-        <img src="assets/img/perfil.jpg" alt="">
+        <img src="assets/img/perfil.jpeg" alt="">
       </div>
       <div class="intro">
         <div class="animationInit">
@@ -141,3 +141,5 @@ function markMenu() {
 function resetMenu() {
   $('.btnM').css({'background-color': '', 'color': ''});
 }
+
+
